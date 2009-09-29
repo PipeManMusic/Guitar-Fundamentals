@@ -749,7 +749,7 @@ piece = "Exercise #18"
 \header {
 		title = "Guitar Fundimentals"
 		composer = "Daniel Worth"
-		copyright = "© Daniel Worth 2009"
+		copyright = "Creative Commons Share Alike 3.0"
 		tagline = ##f
 	}
 }

@@ -455,7 +455,7 @@ piece = "Exercise #18"
 		<<
 		\chords {
 			\set chordChanges = ##t 
-            g1
+            g1:7
 		}
 		\set chordChanges = ##t 
 
@@ -474,7 +474,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #25 - G Chord"
+			piece = "Exersize #25 - G7 Chord"
 		}
 	}
 

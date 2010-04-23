@@ -368,10 +368,188 @@ piece = "Exercise #18"
 			\time 4/4
             e4 e e e c c c2 f4 f f f d d d2 e4 f g d e f g f e e d d c c c2
 			\bar "||"
+			\pageBreak
 		}
 
 		\header {
 			piece = "Oats and Beans"
+		}
+	}
+
+	\score {
+		<<
+		\chords {
+			\set chordChanges = ##t 
+            c1
+		}
+		\set chordChanges = ##t 
+
+		\relative c' {
+			\clef treble
+            \override Score.MetronomeMark #'extra-offset = #'(-12 . 0)
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            <c e g c e>1^\markup \fret-diagram #"6-x;5-3;4-2;3-o;2-1;1-o;"
+            r <c e g c e> r < c e g c e > 
+    		\bar "||"
+    }
+		>>
+
+		\header {
+			piece = "Exersize #22 - C Chord"
+		}
+	}
+
+	\score {
+		<<
+		\chords {
+            c1 c c c c
+		}
+
+		\relative c' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            <c e g c e> <c e g c e> <c e g c e> <c e g c e> < c e g c e > 
+    		\bar "||"
+    }
+		>>
+
+		\header {
+			piece = "Exersize #23"
+		}
+	}
+
+	\score {
+		<<
+		\chords {
+            c1 c c c c
+		}
+
+		\relative c' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            <c e g c e>2 <c e g c e> <c e g c e> <c e g c e> <c e g c e> <c e g c e>
+            <c e g c e> <c e g c e> <c e g c e>1
+     		\bar "||"
+      	}
+		>>
+
+		\header {
+			piece = "Exersize #24"
+		}
+	}
+
+
+	\score {
+		<<
+		\chords {
+			\set chordChanges = ##t 
+            g1
+		}
+		\set chordChanges = ##t 
+
+		\relative c' {
+			\clef treble
+            \override Score.MetronomeMark #'extra-offset = #'(-12 . 0)
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            <g b d g b f'>1^\markup \fret-diagram #"6-3;5-2;4-o;3-o;2-o;1-1;"
+            r <g b d g b f'> r <g b d g b f'> 
+    		\bar "||"
+        }
+		>>
+
+		\header {
+			piece = "Exersize #25 - G Chord"
+		}
+	}
+
+	\score {
+		<<
+		\chords {
+            c1 r g:7 r c 
+		}
+
+		\relative c' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            \override Staff.FretBoard #'padding = #10
+            <c e g c e> r <g b d g b f'> r  <c e g c e> 
+     		\bar "||"
+      	}
+		>>
+
+		\header {
+			piece = "Exersize #26"
+		}
+	}
+
+
+	\score {
+		<<
+		\chords {
+            c1 r g:7 r c 
+		}
+
+		\relative c' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            \override Staff.FretBoard #'padding = #10
+            <c e g c e> <c e g c e> <g b d g b f'>  <g b d g b f'>  <c e g c e> 
+     		\bar "||"
+      	}
+		>>
+
+		\header {
+			piece = "Exersize #27"
+		}
+	}
+
+	\score {
+		<<
+		\chords {
+            c1 r g:7 r c 
+		}
+
+		\relative c' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=120
+			\key c \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 4/4
+            \override Staff.FretBoard #'padding = #10
+            <c e g c e>2 <c e g c e> <c e g c e ><c e g c e>
+            <g b d g b f'>  <g b d g b f'>  <g b d g b f'>
+            <g b d g b f'>  <c e g c e>1
+     		\bar "||"
+      	}
+		>>
+
+		\header {
+			piece = "Exersize #28"
 		}
 	}
 
@@ -440,6 +618,7 @@ piece = "Exercise #18"
 				c4 c g' g a a g2 f4 f e e  d d c2 c4 c g' g a a g2 f4 f e e d d c2
 				g'4 g f f e e d2 g4 g f f e e d2 c4 c g' g a a g2 f4 f e e d d c2
 			\bar "||"
+            \pageBreak
 		}
 
 		\header {
@@ -523,6 +702,7 @@ piece = "Exercise #18"
 			\break
 			e2 e4 d c e g c a g f e d2. r4 g2 a4 b c2. f,4 e2 d c1
 			\bar "||"
+			\pageBreak
 		}
 
 		\header {
@@ -576,7 +756,7 @@ piece = "Exercise #18"
 		}
 
 		\header {
-			piece = "Exercise #22 - F Sharp"
+			piece = "Exercise #29 - F Sharp"
 		}
 	}
 
@@ -590,10 +770,11 @@ piece = "Exercise #18"
 			g'2 c,4 d e g r g a2 g4 f e1 d2 d4 e f2 g4 f e2 fis4 fis g1 g2 g4 a
 			f2 f4 g e2 e4 f d1 e2 e4 e g f e d c2 d4 d e1 c'2 b4 a g f e c d2 g4 g c,1 
 			\bar "||"
+			\pageBreak
 		}
 
 		\header {
-			piece = "Exercise #23"
+			piece = "Exercise #30"
 		}
 	}
 
@@ -609,7 +790,7 @@ piece = "Exercise #18"
 		}
 
 		\header {
-			piece = "Exercise #23 - Key of G"
+			piece = "Exercise #31 - Key of G"
 		}
 	}
 
@@ -644,6 +825,7 @@ piece = "Exercise #18"
 			g2 a4 g g d f2
 			f g4 f f d e e e e g f e2 d c2. r4
 			\bar "||"
+			\pageBreak
 		}
 
 		\header {
@@ -708,10 +890,11 @@ piece = "Exercise #18"
 			\time 4/4
 			g4 g g2 g4 g g2 b4 b a b c d e2 g,4 g g2 a4 a a2 b4 b a b c g c2
 			\bar "||"
+			\pageBreak
 		}
 
 		\header {
-			piece = "Exercise #24"
+			piece = "Exercise #32"
 		}
 	}
 
@@ -741,10 +924,39 @@ piece = "Exercise #18"
 		}
 	}
 
+	\score {
+		<<
+		\chords {
+			\set chordChanges = ##t
+			g2. g g g c c g g d:7 d:7 g g a:7 a:7 d:7 d:7 d:7
+			d:7 g g g c g g g d:7 g d:7 g d:7 g g
+		}
+
+		\relative g' {
+			\clef treble
+			\override Score.MetronomeMark #'padding = #5
+			\tempo 4=132
+			\key g \major
+			\override Staff.TimeSignature #'style = #'()
+			\time 3/4
+			d'2. b g d e4 fis g e2 g4 d2.~ d a' d b g
+			e4 fis g a2 b4 a2.~a2 b4 c b a d2 b4 a g2~g a4
+			b2 g4 e2 g4 e d2~d d4 g2 b4 a r d, g2 b4 a r b8 c
+			d4 b g a2 d4 g2.~g4 r r
+			\bar "||"
+		}
+		>>
+
+		\header {
+			piece = "Bicycle Built For Two"
+		}
+	}
+
 \header {
-		title = "Guitar Fundimentals"
+		title = "Guitar Fundamentals"
 		composer = "Daniel Worth"
 		copyright = "Creative Commons Share Alike 3.0"
 		tagline = ##f
 	}
+
 }

@@ -6,7 +6,7 @@
 \book {
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \tempo 4=100
 \clef treble
 \key c \major
@@ -23,7 +23,7 @@ piece = "Exercise #1"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -40,7 +40,7 @@ piece = "Exercise #2"
 
 \score {
     \relative c' {
-    \setEasyHeads
+    \easyHeadsOn
     \clef treble
     \tempo 4=100
     \key c \major
@@ -57,7 +57,7 @@ piece = "Exercise #2"
 
 \score {
     \relative c' {
-    \setEasyHeads
+    \easyHeadsOn
     \clef treble
     \tempo 4=100
     \key c \major
@@ -74,7 +74,7 @@ piece = "Exercise #2"
 
 \score {
     \relative c' {
-    \setEasyHeads
+    \easyHeadsOn
     \clef treble
     \tempo 4=100
     \key c \major
@@ -94,7 +94,7 @@ piece = "Exercise #5 - Half Note"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \key c \major
 \tempo 4=100
@@ -111,7 +111,7 @@ piece = "Exercise #6"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -128,7 +128,7 @@ piece = "Exercise #7"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -144,7 +144,7 @@ piece = "Exercise #8"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -160,7 +160,7 @@ piece = "Exercise #9"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -176,7 +176,7 @@ piece = "Exercise #10"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -192,7 +192,7 @@ piece = "Exercise #11"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -208,7 +208,7 @@ piece = "Exercise #12"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -225,7 +225,7 @@ piece = "Exercise #13"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -242,7 +242,7 @@ piece = "Exercise #14"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major
@@ -259,7 +259,7 @@ piece = "Exercise #15"
 
 \score {
 \relative c' {
-\setEasyHeads
+\easyHeadsOn
 \clef treble
 \tempo 4=100
 \key c \major

@@ -399,7 +399,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #22 - C Chord"
+			piece = "Exercise #22 - C Chord"
 		}
 	}
 
@@ -422,7 +422,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #23"
+			piece = "Exercise #23"
 		}
 	}
 
@@ -446,7 +446,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #24"
+			piece = "Exercise #24"
 		}
 	}
 
@@ -474,7 +474,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #25 - G7 Chord"
+			piece = "Exercise #25 - G7 Chord"
 		}
 	}
 
@@ -498,7 +498,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #26"
+			piece = "Exercise #26"
 		}
 	}
 
@@ -523,7 +523,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #27"
+			piece = "Exercise #27"
 		}
 	}
 
@@ -549,7 +549,7 @@ piece = "Exercise #18"
 		>>
 
 		\header {
-			piece = "Exersize #28"
+			piece = "Exercise #28"
 		}
 	}
 

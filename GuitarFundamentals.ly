@@ -368,7 +368,6 @@ piece = "Exercise #18"
 			\time 4/4
             e4 e e e c c c2 f4 f f f d d d2 e4 f g d e f g f e e d d c c c2
 			\bar "||"
-			\pageBreak
 		}
 
 		\header {
@@ -524,7 +523,6 @@ piece = "Exercise #18"
 			\break
 			e2 e4 d c e g c a g f e d2. r4 g2 a4 b c2. f,4 e2 d c1
 			\bar "||"
-			\pageBreak
 		}
 
 		\header {
@@ -592,7 +590,6 @@ piece = "Exercise #18"
 			g'2 c,4 d e g r g a2 g4 f e1 d2 d4 e f2 g4 f e2 fis4 fis g1 g2 g4 a
 			f2 f4 g e2 e4 f d1 e2 e4 e g f e d c2 d4 d e1 c'2 b4 a g f e c d2 g4 g c,1 
 			\bar "||"
-			\pageBreak
 		}
 
 		\header {
@@ -647,7 +644,6 @@ piece = "Exercise #18"
 			g2 a4 g g d f2
 			f g4 f f d e e e e g f e2 d c2. r4
 			\bar "||"
-			\pageBreak
 		}
 
 		\header {
@@ -712,7 +708,6 @@ piece = "Exercise #18"
 			\time 4/4
 			g4 g g2 g4 g g2 b4 b a b c d e2 g,4 g g2 a4 a a2 b4 b a b c g c2
 			\bar "||"
-			\pageBreak
 		}
 
 		\header {
